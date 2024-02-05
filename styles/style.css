@@ -6,6 +6,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Work Sans', sans-serif;
 }
+/*shaherd Styles*/
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
@@ -15,6 +16,18 @@ font-family: 'Work Sans', sans-serif;
     padding: 15px 30px;
     font-size: 20px;
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+/*shaherd Styles*/
 
 
 
@@ -22,7 +35,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 200px;
+    margin: 0px 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -47,12 +60,51 @@ nav a{
 
 .head{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .back-pic{
-    width: 500px;
+    width: 400px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/*main style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*About Section*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
