@@ -16,10 +16,13 @@ font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 
+
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -40,4 +43,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #000000;
+}
+
+.head{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .back-pic{
+    width: 500px;
 }
