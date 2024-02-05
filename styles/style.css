@@ -108,3 +108,10 @@ main{
 .about-info{
     text-align: center;
 }
+/* What can i do */
+.section-desciption{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 150px;
+}
