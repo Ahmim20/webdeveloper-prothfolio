@@ -135,3 +135,23 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-ins{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-desc{
+    color: #757575;
+    font-size: 18px;
+}
+.download-cav{
+    text-align: center;
+    margin-top: 45px;
+}
